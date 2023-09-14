@@ -10,7 +10,7 @@ Simple math game with command-line interface.
 - [x] Record previous games in a list and allow user to view previous game sessions
 - [x] Results do not need to be recorded on a database; results can be deleted when application closes
 
-### Additional Challenges:
+Additional Challenges:
 - [x] Implement difficulty levels
 - [x] Create a 'Random Game' option
 
