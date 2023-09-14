@@ -49,7 +49,7 @@ q - Close application");
                         break;
 
                     case "v":
-
+                        Helpers.PrintGames();
                         break;
 
                     case "q":

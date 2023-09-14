@@ -183,5 +183,21 @@ namespace MathGame
                 Difficulty = difficulty
             });
         }
+
+        internal static void PrintGames()
+        {
+            Console.Clear();
+            Console.WriteLine("Games History");
+            Console.WriteLine("====================================================================================================");
+
+            foreach (var game in games)
+            {
+                Console.WriteLine($"{game.Date} - {game.Difficulty} {game.Type}, Score: {game.Score}/{game.MaxScore}");
+            }
+
+            Console.WriteLine("====================================================================================================");
+            Console.WriteLine("\nPress ENTER to return to menu");
+            PressEnter();
+        }
     }
 }
