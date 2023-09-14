@@ -29,23 +29,23 @@ q - Close application");
                 switch (menuInput.Trim().ToLower())
                 {
                     case "a":
-
+                        Engine.AdditionGame();
                         break;
 
                     case "s":
-
+                        Engine.SubtractionGame();
                         break;
 
                     case "m":
-
+                        Engine.MultiplicationGame();
                         break;
 
                     case "d":
-
+                        Engine.DivisionGame();
                         break;
 
                     case "r":
-
+                        Engine.RandomGame();
                         break;
 
                     case "v":
